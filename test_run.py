@@ -4,7 +4,11 @@ import unittest2
 class Test_Math(unittest2.TestCase):
     def test_add(self):
         self.assertEqual(run.add(2, 3), 5)
+        self.assertNotEqual(run.add(2, 3), 3)
 
+    def test_mult(self):
+        self.assertEqual(run.mult(2, 3), 6)
+        self.assertNotEqual(run.mult(2, 3), 4)
 
 if __name__ == '__main__':
     unittest2.main()
