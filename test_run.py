@@ -10,5 +10,10 @@ class Test_Math(unittest2.TestCase):
         self.assertEqual(run.mult(2, 3), 6)
         self.assertNotEqual(run.mult(2, 3), 4)
 
+    def test_div(self):
+        self.assertEqual(run.div(4, 2), 2)
+        self.assertEqual(run.div(5, 2), 2.5)
+
+
 if __name__ == '__main__':
     unittest2.main()
