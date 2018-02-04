@@ -7,4 +7,4 @@ def mult(a, b):
 
 
 def div(a, b):
-    pass
+    return a / b

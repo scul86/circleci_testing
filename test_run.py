@@ -13,6 +13,7 @@ class Test_Math(unittest2.TestCase):
     def test_div(self):
         self.assertEqual(run.div(4, 2), 2)
         self.assertEqual(run.div(5, 2), 2.5)
+        self.assertEqual(run.div(5, 2.5), 2)
 
 
 if __name__ == '__main__':
