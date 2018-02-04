@@ -3,4 +3,4 @@ def add(a, b):
 
 
 def mult(a, b):
-    pass
+    return a * b
