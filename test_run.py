@@ -6,6 +6,9 @@ class Test_Math(unittest2.TestCase):
         self.assertEqual(run.add(2, 3), 5)
         self.assertNotEqual(run.add(2, 3), 3)
 
+    def test_sub(self):
+        self.assertEqual(run.sub(2, 1), 1)
+
     def test_mult(self):
         self.assertEqual(run.mult(2, 3), 6)
         self.assertNotEqual(run.mult(2, 3), 4)
